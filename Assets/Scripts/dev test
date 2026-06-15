@@ -1,0 +1,36 @@
+```markdown
+# Ejemplo de commit y publicación de prueba en la rama `dev`
+
+## Mensaje de commit (corto)
+
+feat(dev): prueba de commit inicial en rama dev
+
+## Descripción del commit (detallada)
+
+- Agrega archivos de prueba y configuración mínima para verificar el flujo de trabajo en la rama `dev`.
+- Incluye un ejemplo de cambio no disruptivo para validar CI/CD y revisiones de código.
+
+## Instrucciones para la publicación (deploy) de prueba
+
+1. Asegúrate de estar en la rama `dev`:
+
+	git checkout dev
+
+2. Añade y confirma los cambios:
+
+	git add .
+	git commit -m "feat(dev): prueba de commit inicial en rama dev"
+
+3. Sube la rama al remoto:
+
+	git push origin dev
+
+4. Abre una Pull Request si tu flujo requiere revisión antes del merge a `main` o `staging`.
+
+5. Verifica en el pipeline/CI que la publicación de prueba se ejecuta correctamente.
+
+## Nota
+
+Este mensaje es un ejemplo simple pensado para pruebas; ajusta el contenido del commit y la descripción según los cambios reales realizados.
+
+``` 
